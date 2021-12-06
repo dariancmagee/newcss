@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>CSS 101</title>
+        <h1 style="color: green">CSS 101</h1>
     </head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: orange;}
+        .border {
+          border: 2px solid black;
+          padding: 10px;
+        }
+        .dashed-border {
+            border: 4px dashed purple;
+            padding: 5px;
+        }
+        #title {
+            text-transform: uppercase;
+        }
+    </style>
+    <body>
+        <div>
+            <h1>CSS Testing!</h1>
+            <h2>This is an H2 element</h2>
+            <p class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia obcaecati alias nesciunt quae, accusantium aspernatur ipsum quas, natus architecto corporis quos esse aperiam, eos quaerat dolores similique rem praesentium.</p>
+            
+            <p class="dashed-border">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, vitae dolor natus eius, ipsam id iste voluptatem quam, ad ipsum vero quo magnam provident tenetur nesciunt perspiciatis. Culpa, quidem error.</p>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,21 @@
+h2 {
+    color :brown;
+}
+
+body { 
+    background-color: orange;
+}
+
+.border {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.dashed-border {
+    border: 4px dashed purple;
+    padding: 5px;
+}
+
+#title {
+    text-transform: uppercase;
+}
